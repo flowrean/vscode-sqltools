@@ -525,7 +525,7 @@ export interface ICSVExportOptions {
   /**
    * Quote all non-empty fields
    * @type {boolean}
-   * @default true
+   * @default false
    * @memberof ICSVExportOptions
    */
   quoted?: boolean;
@@ -539,7 +539,7 @@ export interface ICSVExportOptions {
   /**
    * Quote all string fields
    * @type {boolean}
-   * @default false
+   * @default true
    * @memberof ICSVExportOptions
    */
   quoted_string?: boolean;
